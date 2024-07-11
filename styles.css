@@ -31,6 +31,7 @@ body{
     font-size: 20px;
     font-weight: bold;
     
+    
 }
 
 #content{
@@ -92,18 +93,25 @@ img{
     height: 25px;
     fill: white;
 }
-li{
-    display: flex;
-    padding: 0;
-    margin: 25px 0px;
-}
-
-
-ul, li{
+ul{
     list-style-type: none;
-    margin: 25px 0px;
 }
 
+#dashboard{
+    font-size: 28px;
+    padding: 30px;
+}
+#sidebar>ul>li{
+    display: flex;
+    list-style-type: none;
+    margin: 25px 20px;
+}
+#sidebar>ul>li>img{
+    margin-right: 15px;
+}
+#emptyDiv{
+    height: 20px;
+}
 h3{
     margin: 0;
 }
