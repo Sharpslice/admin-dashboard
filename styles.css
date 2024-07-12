@@ -22,6 +22,45 @@ body{
 
 #header{
     grid-column: 2 / 3;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 2fr 1fr;
+    box-shadow: 10px 10px 15px rgba(0,0,0,0.5);
+}
+#searchbar{
+    margin-left: 40px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+#searchbar>input{
+    border: none;
+    border-radius: 15px;
+    background-color: #cbd5e1;
+    width: 80%;
+    height: 30px;
+}
+
+#headerButtons>button
+{   
+    margin: 0px 10px;
+    width: 90px;
+    height: 35px;
+    border: none;
+    border-radius: 18px;
+    background-color: #0ea5e9;
+    color: white;
+    
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+}
+#greetings>span{
+    font-weight: bold;
+}
+#greetings>span>p{
+    font-weight: bold;
+    font-size: 22px;
 }
 
 #sidebar{
